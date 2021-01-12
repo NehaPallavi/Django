@@ -1,0 +1,16 @@
+#include<iostream.h>
+using namespace std;
+namespace apple
+{​​​​
+void print(const char* test)
+{​​​​
+std::string temp=test;
+std::reverse(temp.begin(), temp.end());
+std::cout<<temp<<std::endl;
+}​​​​
+}​​​​
+int main()
+{​​​​
+using namespace a=apple;
+a::print("Alliance");
+}​​​​
